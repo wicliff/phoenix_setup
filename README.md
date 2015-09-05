@@ -55,12 +55,11 @@ echo '. $HOME/.asdf/asdf.sh' >> ~/.bash_profile
 
 # For Zsh & other Shells, copy it to appropriate profile files and reload your shell
 
-```
 # This command should give you options which are present in asdf
 
 asdf
-```
 
+```
 
 ### Installing Erlang
 
@@ -140,7 +139,8 @@ iex
 
 Phoneix Framework uses Brunch to manage static assets - Javascripts, CSS etc. We will be needing nodejs also, and fortunately we can manage nodejs through asdf
 
-## Installing Nodejs
+### Installing Nodejs
+
 First, we will add Nodejs asdf plugin
 
 `
