@@ -183,6 +183,18 @@ We will install Phoenix now
 mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v1.0.1/phoenix_new-1.0.1.ez
 `
 
+## Installing Editor Plugins
+
+```
+# For Vim
+
+https://github.com/elixir-lang/vim-elixir
+
+# For Sublime Text
+
+ctrl  + P , add Elixir Plugin
+
+```
 
 
 
