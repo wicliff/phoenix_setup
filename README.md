@@ -136,12 +136,13 @@ asdf install elixir 1.2.3
 
 Add this version number to `.tool-versions` file
 
-`
+```
 nano ~/.tool-versions
 
 erlang 18.3
 elixir 1.2.3
-`
+
+```
 
 
 You can check whether elixir is properly installed by starting its interactive shell, you can break out of it by tying `ctrl + c `
@@ -158,7 +159,6 @@ First, we will add Nodejs asdf plugin - https://github.com/asdf-vm/asdf-nodejs
 
 `
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-
 `
 
 We can check which versions of Nodejs are available
@@ -175,13 +175,13 @@ asdf install nodejs 6.3.0
 
 Add nodejs to the `~./tools-versions` file
 
-`
+```
 nano ~/.tool-versions
 
 erlang 18.3
 elixir 1.2.3
 nodejs 6.3.0
-`
+```
 
 You can check the node installation by typing
 
@@ -201,7 +201,7 @@ mix help
 
 We have commands for dependency management `mix deps`, commands to compile `mix compile`,  commands to run tests `mix test`. All in all, a nice rounded tool.
 
-We will install Phoenix now
+You can install Phoenix with
 
 `
 mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
